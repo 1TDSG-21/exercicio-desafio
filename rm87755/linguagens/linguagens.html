@@ -8,47 +8,104 @@
         *{
             font-family: 'Calibri';
             color:white;
-            background-color: rgb(56, 56, 56);
             text-decoration: none;
         }
-        li:hover{
+        body{
+            background-color: rgb(56, 56, 56);
+            }
+        nav {
+        display: flex;
+        background-color: rgb(255, 255, 255);
+        margin: -16px;
+        padding: 10px;
+        box-shadow: 0 10px 10px rgb(86,86,86);
+      }
+      .logo {
+        margin-top: 20px;
+        margin-bottom: -20px;
+      }
+      .logo:hover{
+        filter: opacity(85%);
+        transition: all 0.2s ease-in-out;
+      }
+      nav li {
+        margin-left: -20px;
+      }
+      nav a {
+        text-transform: uppercase;
+        color: #000000;
+        font-weight: bold;
+        font-size: 27px;
+        text-decoration: none;
+        position: relative;
+      }
+      nav ul a:hover {
+        color: #f1cc51;
+        border: 2px solid #000000;
+        padding: 4px;
+        font-size: 30px;
+        box-shadow: 0 5px 10px rgb(151, 151, 149);
+        transition: all 0.2s ease-in-out;
+      }
+        ol li:hover{
             color: #f1cc51;
             font-size: 30px;
             transition: all .2s ease-in-out
         }
-        body{
-            margin-left: 100px;
-        }
         li{
             padding: 3px;
+            margin-left: 50px;
+        }
+        h1{
+            margin-left: 50px; 
+            margin-top: 50px;
         }
     </style>
   </head>
 
   <body>
+
+    <header>
+        <nav>
+          <a href="../index.html">
+            <img class="logo" src="../imagens/icon.png" width="150" height="150" />
+          </a>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../como-limpar/como-limpar.html">Como Limpar?</a></li>
+            <li>
+              <a href="../linguagens/linguagens.html">Linguagens de Programação</a>
+            </li>
+            <li>
+              <a href="../lista-emprego/lista-emprego.html">Lista de Empregos</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
       <h1>Linguagens de Programação<br> Mais Populares do Momento</h1>
 
       <ol>
-          <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript">JavaScript</li>
-          <li><a href="https://docs.python.org/3/">Python</li>
-          <li><a href="https://docs.oracle.com/en/java/">Java</li>
-          <li><a href="https://www.php.net/docs.php">PHP</li>
-          <li><a href="https://docs.microsoft.com/pt-br/dotnet/csharp/">C#</li>
-          <li><a href="https://docs.microsoft.com/pt-br/cpp/?view=msvc-160">C++</li>
-          <li><a href="https://www.ruby-lang.org/pt/documentation/">Ruby</li>
-          <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">CSS</li>
-          <li><a href="https://www.typescriptlang.org/docs/">TypeScript</li>
-          <li><a href="https://devdocs.io/c/">C</li>
-          <li><a href="https://swift.org/documentation/">Swift</li>
+          <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"target="_blank">JavaScript</li>
+          <li><a href="https://docs.python.org/3/"target="_blank">Python</li>
+          <li><a href="https://docs.oracle.com/en/java/"target="_blank">Java</li>
+          <li><a href="https://www.php.net/docs.php"target="_blank">PHP</li>
+          <li><a href="https://docs.microsoft.com/pt-br/dotnet/csharp/"target="_blank">C#</li>
+          <li><a href="https://docs.microsoft.com/pt-br/cpp/?view=msvc-160"target="_blank">C++</li>
+          <li><a href="https://www.ruby-lang.org/pt/documentation/"target="_blank">Ruby</li>
+          <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"target="_blank">CSS</li>
+          <li><a href="https://www.typescriptlang.org/docs/"target="_blank">TypeScript</li>
+          <li><a href="https://devdocs.io/c/"target="_blank">C</li>
+          <li><a href="https://swift.org/documentation/"target="_blank">Swift</li>
           <li><a href="https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html">Objective-C</li>
-          <li><a href="https://docs.scala-lang.org/">Scala</li>
-          <li><a href="https://www.rdocumentation.org/">R</li>
-          <li><a href="https://golang.org/doc/">Go</li>
-          <li><a href="https://devdocs.io/bash/">Shell</li>
-          <li><a href="https://docs.microsoft.com/pt-br/powershell/">PowerShell</li>
-          <li><a href="https://perldoc.perl.org/">Perl</li>
-          <li><a href="https://kotlinlang.org/docs/home.html">Kotlin</li>
-          <li><a href="https://www.haskell.org/documentation/">Haskell</a></li>
+          <li><a href="https://docs.scala-lang.org/"target="_blank">Scala</li>
+          <li><a href="https://www.rdocumentation.org/"target="_blank">R</li>
+          <li><a href="https://golang.org/doc/"target="_blank">Go</li>
+          <li><a href="https://devdocs.io/bash/"target="_blank">Shell</li>
+          <li><a href="https://docs.microsoft.com/pt-br/powershell/"target="_blank">PowerShell</li>
+          <li><a href="https://perldoc.perl.org/"target="_blank">Perl</li>
+          <li><a href="https://kotlinlang.org/docs/home.html"target="_blank">Kotlin</li>
+          <li><a href="https://www.haskell.org/documentation/"target="_blank">Haskell</a></li>
       </ol>
   </body>
 </html>
