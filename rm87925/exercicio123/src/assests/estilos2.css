@@ -1,0 +1,55 @@
+.texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: '#dddd';
+    color: white;
+}
+
+.titulo {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+    margin-right:-10px;
+    font-family: NonBreakingSpaceOverride, "Hoefler Text", Garamond, "Times New Roman", serif;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.texto p {
+    padding: 3px;
+    line-height: 1.476;
+    font-size: inherit;
+    text-align: inherit;
+    word-break: break-word;
+    word-wrap: break-word;
+    font-family: NonBreakingSpaceOverride, "Hoefler Text", Garamond, "Times New Roman", serif;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.texto li {
+    text-decoration: none;
+    line-height: 1.476;
+    font-size: inherit;
+    text-align: inherit;
+    word-break: break-word;
+    word-wrap: break-word;
+    font-family: NonBreakingSpaceOverride, "Hoefler Text", Garamond, "Times New Roman", serif;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.listas {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-end;
+    list-style: none;
+    margin-left: -10px;
+}

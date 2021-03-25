@@ -1,0 +1,134 @@
+.topo {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    margin-top: -20px;
+    padding: auto;
+    background-color: #000000;
+    border-radius: 5px;
+}
+
+.topo nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.topo li {
+    margin-top: -30px;
+    padding: 30px;
+}
+
+.topo a {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: "Source Serif Pro", serif;
+}
+
+.conteudo {
+    width: 100%;
+    max-width: 800px;
+    background-color: "#dddd";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    padding: auto;
+}
+
+.dias {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo {
+    width: 277px;
+    height: 58px;
+    background-color: #1E90FF;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.isolado {
+    display: flex;
+    justify-content: center;
+    align-items: cente;
+    font-family: mry_KacstQurn;
+    font-style: normal;
+    font-weight: normal;
+    width: 230px;
+    height: 25px;
+    font-size: 23px;
+    color: #1E90FF;
+    word-break: keep-all;
+    background: rgba(234, 228, 228, 0.63);
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-family: mry_KacstQurn;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 18px;
+    color: #FFFFFF;
+    word-break: keep-all;
+}
+
+h4 {
+    font-family: mry_KacstQurn;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: #FFFFFF;
+    word-break: keep-all;
+    margin: -10px;
+}
+
+h2 {
+    font-family: mry_KacstQurn;
+    font-style: normal;
+    font-weight: normal;
+    width: 230px;
+    height: 48px;
+    font-size: 23px;
+    color: #1E90FF;
+    word-break: keep-all;
+    background: rgba(234, 228, 228, 0.63);
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 1;
+}
+
+span {
+    z-index: 9;
+    margin-top: -40px;
+    color: #1E90FF;
+    word-break: keep-all;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+#contexto {
+    list-style: none;
+    font-family: mry_KacstQurn;
+    font-style: normal;
+    font-weight: normal;
+    width: 230px;
+    font-size: 16px;
+    color: black;
+    background: rgba(234, 228, 228, 0.63);
+    text-transform: lowercase;
+    border-radius: 5px;
+}
