@@ -1,0 +1,86 @@
+ .topo {
+     display: flex;
+     height: 60px;
+     width: 100%;
+     margin-top: -20px;
+     padding: auto;
+     background-color: #000000;
+     border-radius: 5px;
+ }
+ 
+ .topo nav ul {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: 25px;
+     list-style: none;
+     text-decoration: none;
+ }
+ 
+ .topo li {
+     margin-top: -30px;
+     padding: 30px;
+ }
+ 
+ .topo a {
+     text-decoration: none;
+     color: aliceblue;
+     font-family: "Source Serif Pro", serif;
+ }
+ 
+ .texto {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     border: 1px solid black;
+     border-radius: 5px;
+     background-color: '#dddd';
+     color: white;
+ }
+ 
+ .titulo {
+     display: flex;
+     width: 100%;
+     height: 100%;
+     justify-content: flex-start;
+     margin-right: -10px;
+     font-family: NonBreakingSpaceOverride, "Hoefler Text", Garamond, "Times New Roman", serif;
+     letter-spacing: normal;
+     color: #000000;
+ }
+ 
+ .texto p {
+     padding: 3px;
+     line-height: 1.476;
+     font-size: inherit;
+     text-align: inherit;
+     word-break: break-word;
+     word-wrap: break-word;
+     font-family: NonBreakingSpaceOverride, "Hoefler Text", Garamond, "Times New Roman", serif;
+     letter-spacing: normal;
+     color: #000000;
+ }
+ 
+ .texto li {
+     text-decoration: none;
+     line-height: 1.476;
+     font-size: inherit;
+     text-align: inherit;
+     word-break: break-word;
+     word-wrap: break-word;
+     font-family: NonBreakingSpaceOverride, "Hoefler Text", Garamond, "Times New Roman", serif;
+     letter-spacing: normal;
+     color: #000000;
+ }
+ 
+ .listas {
+     display: flex;
+     width: 100%;
+     height: 100%;
+     flex-direction: column;
+     justify-content: flex-end;
+     list-style: none;
+     margin-left: -10px;
+ }
